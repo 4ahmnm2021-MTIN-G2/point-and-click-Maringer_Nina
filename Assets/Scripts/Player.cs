@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
     public Vector3 playerPos;
     public Vector3 mousePos;
     public Vector3 worldPos;
-    public float speed = 5f;
+    public float speed = 0.1f;
    
 
     void Start()
