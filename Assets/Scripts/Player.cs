@@ -2,7 +2,17 @@
 
 public class Player : MonoBehaviour
 {
-    public Vector3 targetPos;
+    public Transform thisTransform;
+    public Vector3 playerPos;
+    public Vector3 mousePos;
+    public Vector3 worldPos;
+    public float speed = 5f;
+   
+
+    void Start()
+    {
+        playerPos = thisTransform.position;
+    }
 
     // Update is called once per frame
     void Update()
@@ -10,11 +20,13 @@ public class Player : MonoBehaviour
 
        if (Input.GetMouseButtonDown(0))
         {
-            targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos = Input.mousePosition;
+            worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+            playerPos = new Vector3(worldPos.x, worldPos.y, thisTransform.position.z);
 
         }
 
-        transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime * 5);
+        thisTransform.position = Vector3.MoveTowards(thisTransform.position, playerPos, speed);
 
        
     }
