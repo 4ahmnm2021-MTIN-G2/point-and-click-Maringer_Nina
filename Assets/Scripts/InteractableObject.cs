@@ -1,23 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class InteractableObject : MonoBehaviour
 {
 
-    public GameObject Object;
     public Text ObjectText;
-    public string TextValue;
-    
-
-    void Start ()
-    {
-        
-    }
+    public UnityEvent clicked;
 
     private void OnMouseDown()
     {
-        Object.SetActive(false);
-        ObjectText.text = TextValue;
+        ObjectText.text = this.gameObject.name;
+        this.gameObject.SetActive(false);
+
+        clicked.Invoke();
     }
 
 
