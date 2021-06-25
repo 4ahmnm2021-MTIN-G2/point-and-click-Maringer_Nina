@@ -11,7 +11,7 @@ Furthermore it can be mentioned that all the main assets (scenery, characters, i
 
 ### Target platform:
 
-+ 2D WebGL (1080 x 1920)
+* 2D WebGL (1080 x 1920)
 
 
 ### Visuals:
@@ -30,7 +30,7 @@ Furthermore it can be mentioned that all the main assets (scenery, characters, i
 
 ### Necessary setup/execution steps: 
 
-* none
+* https://4ahmnm2021-mtin-g2.github.io/point-and-click-Maringer_Nina/
 
 ### Third party material:
 
