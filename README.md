@@ -1,27 +1,57 @@
 ### Project description:
 
+* In this project I created a Point and Click game. My theme is a detective/ thriller story where a group of friends had to witness murder
+ within their inner circle. As player you have to find the murder with examination and the help of hints by combinating certain objects.
+Furthermore it can be mentioned that all the main assets (scenery, characters, items,...) are drawn digitally by myself.
 
 ### Development platform:
-+ Windows 10
-+ Unity 2019.1.14f1
+
+* Windows 10
+* Unity 2019.1.14f1
 
 ### Target platform:
 
-### Necessary setup/execution steps:
++ 2D WebGL (1080 x 1920)
+
 
 ### Visuals:
-None
+
+<div>
+<img src = "./Screenshots/Screenshot3.PNG">
+<div>
+
+<div>
+<img src = "./Screenshots/Screenshot1.PNG">
+<div>
+
+<div>
+<img src = "./Screenshots/Screenshot2.PNG">
+<div>
+
+### Necessary setup/execution steps: 
+
+* none
 
 ### Third party material:
 
+* https://github.com/4ahmnm2021-MTIN-G2/point-and-click-template
+
 ### Project state:
 
-### Limitations:
+* 100 %
+
+### Limitations: 
+
+* none
 
 ### Lessons Learned:
 
-### External Help
-+ [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-+ [Editor](https://jbt.github.io/markdown-editor/)
+* further C# functions:
 
-Copyright by you
+	* condtions
+	* combination of different objects
+	* interactable objects
+	* movement of player in 2D environment
+	
+
+Copyright by Nina Maringer
