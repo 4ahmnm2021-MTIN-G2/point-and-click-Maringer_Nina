@@ -22,7 +22,7 @@ public class InteractableObject : MonoBehaviour
 
     IEnumerator Deactivate()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         ObjectText.GetComponent<Text>().enabled = false;
     }
 
